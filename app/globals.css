@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.banner-item-01 {
+  padding: 300px 0px;
+  background-image: url(/images/products-heading.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+.banner-item-02 {
+ padding: 300px 0px;
+ background-image: url(/images/slide_01.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+.text-content {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ text-align: center;
+ width: 100%;
+}
+.text-content h4 {
+ color: #f33f3f;
+ font-size: 22px;
+ text-transform: uppercase;
+ font-weight: 700;
+ margin-bottom: 15px;
+}
+.text-content h2 {
+ color: #fff;
+ font-size: 62px;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+}
+.first-look {
+ height: 120vh;
+ margin-top: 20vh;
+}
+.first-look-container {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ height: 50%;
+ }
+.first-look h2 {
+ color: #f58888;
+ font-size: 50px;
+ text-transform: uppercase;
+ letter-spacing: 5px; 
+}
+
